@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 입력 폼</title>
+</head>
+<body>
+<form action="processJoin.jsp" method="post">
+	아이디 : <input type="text" name="id" size="10"><br>
+	이름 : <input type="text" name="name" size="10"><br>
+	이메일 :  <input type="text" name="email" size="email"><br>
+
+</form>
+
+</body>
+</html>

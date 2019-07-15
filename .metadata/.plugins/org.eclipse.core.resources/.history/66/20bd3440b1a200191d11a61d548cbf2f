@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>책정보 입력</h1>
+	<hr>
+	<form>
+		책제목 : <input type="text" name="title"><br>  <!-- jsp에서는 name으로 id 지정 -->
+		저자 : <input type="text" name="author"><br>
+		가격 : <input type="text" name="price"><br>
+		간략내용 : <textarea rows="" cols=""></textarea> <!-- textarea 열고닫음 사이에 공백포함 아무것도 넣지 않도록 주의한다 -->
+	
+	</form>
+</body>
+</html>

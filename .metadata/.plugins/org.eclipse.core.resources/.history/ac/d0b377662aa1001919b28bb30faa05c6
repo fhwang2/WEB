@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Grid</title>
+<!-- Bootstrap CDN(content delivery network) 가져오기
+	 If you don't want to download and host Bootstrap yourself, you can include it from a CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script>
+
+</script>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1>Hello World!</h1>
+		<div class="row">
+			<div class="col-sm-4">단락1</div>
+			<div class="col-sm-4">단락2</div>
+			<div class="col-sm-4">단락3</div>
+		</div>
+	</div>
+
+</body>
+</html>

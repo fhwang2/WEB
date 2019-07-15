@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+<title>book.jsp</title>
+	<style type = "text/css">
+	
+	</style>
+</head>
+	<body>
+	<%
+		Class.forName("com.mysql.jdbc.Driver");
+		
+		Connection conn = null;
+		Statement stmt = null;
+		ResultSet rs = null;
+		
+	
+	%>
+		<div id = "book">
+			<div id = "img"><image src='img/<%=rs.getString("img")%></div>
+			
+		</div>	
+	</body>
+</html>

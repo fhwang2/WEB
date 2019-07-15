@@ -1,0 +1,42 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	// POST 방식의 한글 처리
+	request.setCharacterEncoding("utf-8"); 
+	//request parameter 처리
+	String stitle = request.getParameter("title");
+	String sauthor = request.getParameter("author");
+	String sprice = request.getParameter("price");
+	String scontent = request.getParameter("content");
+	String simg = request.getParameter("img");
+
+	//DB에 입력받은 자료 insert
+	Class.forName("com.mysql.jdbc.Driver");
+	
+	Connection conn = null;
+	PreparedStatement pstmt = null;
+	
+	String sql = "insert into books(title, author, price, content, img)"
+				+" values(stitle, sauthor, sprice, scontent, simg)";
+	
+	try{
+		String url = "";
+		String user = "root";
+		String pw = "54321";
+		
+		conn = DriverManager.getConnection(url, user, pw);
+		
+	} catch{
+		
+		
+	} finally{
+		
+		
+	}
+	
+%>
+
+
+
